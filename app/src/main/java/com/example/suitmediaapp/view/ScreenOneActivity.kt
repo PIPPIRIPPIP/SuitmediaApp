@@ -53,7 +53,7 @@ class ScreenOneActivity : AppCompatActivity() {
 
     // fungsi untuk melakukan cek palindrome
     private fun palinCheck(text: String) {
-        val cleanText = text.replace("\\s".toRegex(), "")
+        val cleanText = text.replace("\\s".toRegex(), "").lowercase()
         val reversedText = cleanText.reversed()
         val message = if (cleanText == reversedText) {
             "$text isPalindrome."

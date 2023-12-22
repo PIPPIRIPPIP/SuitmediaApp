@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SuitmediaApp</string>
+    <string name="name">Name</string>
+    <string name="check">Check</string>
+    <string name="next">Next</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="second_screen">Second Screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="john_doe">John Doe</string>
+    <string name="choose_a_user">Choose a User</string>
+    <string name="third_screen">Third Screen</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="email">Email@email.com</string>
+    <string name="text_empty">Masukkan kata terlebih dahulu</string>
+    <string name="name_empty">Masukkan nama terlebih dahulu</string>
+    <string name="palin_check">Palindrome Check</string>
+    <string name="name_check">Name Check</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="no_data_found">No Data Found</string>
+</resources>

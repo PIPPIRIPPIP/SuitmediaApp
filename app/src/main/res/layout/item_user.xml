@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rectangle_bg_white_a700">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/itemUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivUserPhoto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_3image1"
+            app:circularflow_radiusInDP="15dp"
+            android:layout_margin="20dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/txtFirstname"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txtFirstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/firstname"
+            android:textSize="16sp"
+            android:textColor="@color/black_900"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginStart="20dp"
+            app:layout_constraintTop_toTopOf="@id/ivUserPhoto"
+            app:layout_constraintStart_toEndOf="@id/ivUserPhoto"/>
+
+        <TextView
+            android:id="@+id/txtLastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastname"
+            android:textSize="16sp"
+            android:textColor="@color/black_900"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginStart="5dp"
+            app:layout_constraintTop_toTopOf="@id/ivUserPhoto"
+            app:layout_constraintStart_toEndOf="@id/txtFirstname"/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textSize="11sp"
+            android:textColor="@color/black_900"
+            android:fontFamily="@font/poppinsregular"
+            app:layout_constraintTop_toBottomOf="@id/txtFirstname"
+            app:layout_constraintStart_toStartOf="@id/txtFirstname"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
